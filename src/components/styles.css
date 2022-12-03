@@ -1,0 +1,48 @@
+.header-wrapper {
+  background-color: #282c34;
+  display: flex;
+}
+
+.header-wrapper > img {
+  height: 90px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.header-title {
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+.footer-wrapper {
+  background-color: #282c34;
+  display: flex;
+}
+
+.footer-wrapper > img {
+  height: 90px;
+  margin-left: 10px;
+}
+
+.footer-title {
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+}
+
+.navigation > button {
+  margin: 20px 100px 0 0;
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(128, 128, 128, 0);
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  font-family: Helvetica,Arial, sans-serif;
+}
